@@ -1,0 +1,688 @@
+/*GENERAL*/
+html {
+  font-family: 'Josefin Sans', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  height: 100%;
+  width: 250%;
+}
+
+
+/*HEADER*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  height: 12vh;
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.header__logo {
+  height: 100%;
+  width: 20%;
+}
+
+.header_icono {
+  height: 100%;
+  width: 20%;
+  border: 0;
+  background-color: transparent;
+  font-size: 4rem;
+}
+
+.icono {
+  font-size: 3rem;
+}
+
+.header__navigation {
+  width: 100%;
+  height: 25vh;
+  background-color: rgb(10, 10, 10, .8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: none;
+}
+
+.header__navigation--active {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.header__navigation--disabled {
+  display: none;
+}
+
+.header__navigation ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.header__navigation li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+}
+
+.navigation_link {
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  font-size: 3.5rem;
+}
+
+
+/*CONTENIDO*/
+
+#banner {
+  padding: 0;
+}
+
+.banner__carousel {
+  display: none;
+}
+
+.banner__titulo {
+  background-color: rgb(214, 170, 88);
+  background-image: url("../img/_MG_9507.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.banner__titulo h1 {
+  background-color: rgba(0, 0, 0, 0.39);
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
+}
+
+.banner__titulo h1 {
+  color: white;
+  font-size: 10rem;
+  text-align: center;
+}
+
+.image__ong {
+  width: 100%;
+  height: 25%;
+  justify-content: space-around;
+}
+
+/*MAIN*/
+
+main section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15%;
+}
+
+.section__title {
+  font-size: 6rem;
+  margin-top: 15%;
+
+}
+
+
+/*SECCION NOSOTROS*/
+
+#us {
+  background-color: rgb(230, 230, 250);
+}
+
+
+#us p {
+  font-size: 2rem;
+  margin-top: 5%;
+  text-align: justify;
+}
+
+/*SECCION SERVICIOS*/
+
+#services {
+  background-color: rgb(186, 85, 211);
+  height: auto;
+
+}
+
+.service__item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20% 0;
+
+
+}
+
+.service__image {
+  font-size: 8rem;
+  color: white;
+}
+
+.service__imagefa-solidfa-seedling {
+  font-size: 12rem;
+  color: white;
+
+}
+
+.service__item h3 {
+  font-size: 4rem;
+  color: white;
+}
+
+/*SECCION SOBRE NUESTROS TALLERES*/
+
+#aboutservices {
+  background-color: rgb(230, 230, 250);
+}
+
+
+#aboutservices p {
+  font-size: 2rem;
+  margin-top: 5%;
+  text-align: justify;
+}
+
+/*CONTACTO*/
+
+#contact {
+  background-image:url("../img/yerba\ mate\ argentina\ 0005_MG_6752.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  color: white;
+}
+
+#contact a, span{
+  text-decoration: none;
+  color: white;
+}
+
+#contact h2{
+  background-color: rgba(0, 0, 0, 0.476);
+}
+
+.contact__item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20% 0;
+  background-color: rgba(0, 0, 0, 0.476);
+}
+
+.contact__image {
+  font-size: 8rem;
+}
+
+.contact__title {
+  font-size: 4rem;
+  text-decoration: none;
+  color: black;
+
+}
+
+/*FOOTER*/
+
+footer {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 3, 3);
+}
+
+footer span {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+
+#header {
+  background-color: white;
+}
+
+.section__title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gallery__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+#gallery {
+  padding: 0;
+  height: auto;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.gallery_product {
+  width: 20%;
+  height: 300px;
+  background-color: green;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery_product img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+#estilos {
+  background-image: url("../img/fondo-estilos.jpg");
+  background-size: 100%;
+  color: white;
+}
+
+#estilos h3 {
+  background-color: rgba(7, 3, 3, 0.501);
+}
+
+#estilos p {
+  background-color: rgba(7, 3, 3, 0.501);
+  font-size: 1.5rem
+}
+
+.slide__title {
+  background-color: rgba(7, 3, 3, 0.501);
+  font-size: 1.5rem
+}
+
+.p__slider {
+  background-color: rgba(7, 3, 3, 0.501);
+  font-size: 1.5rem
+}
+
+
+
+@media (min-width: 1000px) {
+
+  .logo {
+    width: auto;
+  }
+
+  #header {
+    background-color: transparent;
+    position: fixed;
+  }
+
+  .header_icono {
+    display: none;
+  }
+
+  .header__logo {
+    width: 5%;
+    margin-bottom: 0;
+  }
+
+  .header__navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: transparent;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+  }
+
+  .header__navigation ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+  }
+
+  .navigation_link {
+    font-size: 2rem;
+    color: black;
+  }
+
+  /*BANNER*/
+
+  #banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .banner__titulo {
+    display: none;
+  }
+
+  .banner__carousel {
+    display: block;
+    width: 100%;
+    height: 50vh;
+  }
+
+  /*MAIN*/
+
+  .section__title {
+    font-size: 2rem;
+  }
+
+  /*NOSOTROS*/
+
+  #us {
+    height: auto;
+  }
+
+  #us p {
+    font-size: 1.5rem;
+    margin: 15% 0;
+  }
+
+  /*TALLERES*/
+
+  #services {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #services .section__title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .service__item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+
+  }
+
+  .service__image {
+    font-size: 6rem;
+  }
+
+  .service__item h3 {
+    font-size: 1.5rem;
+  }
+
+  /*SOBRE NUESTROS TALLERES*/
+
+  #aboutservices {
+    height: auto;
+  }
+
+  #aboutservices p {
+    font-size: 1.5rem;
+    margin: 3% 0;
+    padding: 0;
+  }
+
+
+  /*CONTACTO*/
+
+  #contact {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #contact .section__title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact__item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+  }
+
+  .contact__image {
+    font-size: 6rem;
+  }
+
+  .contact__title {
+    font-size: 1.5rem;
+  }
+
+  /*FOOTER*/
+
+
+  footer span {
+    font-size: 1.2rem;
+  }
+
+
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+}
+
+#us p {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.carousel-inner {
+  height: auto !important;
+}
+
+.carousel-item {
+  overflow: hidden;
+  color: red;
+}
+
+.carousel-item img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.banner__carousel {
+  height: auto;
+  ;
+  overflow: hidden;
+}
+
+.section__title {
+  margin-top: 65px;
+}
+
+#us .section__title {
+  margin-top: 25px;
+}
+
+.image__ong {
+  display: none;
+}
+
+@media(max-width:1000px) {
+  header {
+    height: auto;
+    top: 0;
+  }
+
+  .header__navigation {
+    height: auto;
+  }
+
+  #banner{
+    display:none;
+  }
+
+
+  .logo {
+    width: 70px;
+    padding: 10px;
+  }
+
+  #banner {
+    height: auto;
+  }
+
+  .banner__titulo {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .banner__titulo h1 {
+    font-size: 4rem;
+    width: 100%;
+  }
+
+  #us {
+    height: auto;
+  }
+
+  #us p {
+    text-align: center;
+  }
+
+  #estilos{
+    height: auto;
+  }
+
+  section {
+    padding: 2px;
+  }
+
+  .section__title {
+    font-size: 4rem;
+  }
+
+  #contact{
+    background-size: cover;
+  }
+  .contact__title {
+    font-size: 2rem;
+  }
+
+  .contact__image {
+    font-size: 4rem;
+  }
+
+  .contact__item {
+    margin: 40px;
+  }
+
+  #services .service__item h3 {
+    font-size: 2rem;
+  }
+
+  .service__item {
+    margin: 40px;
+  }
+
+  .section_paragraph{
+    padding: 10px;
+  }
+    
+  .row-1{
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+  }
+
+  .gallery_product{
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  #estilos{
+    padding: 10px;
+  }
+
+  .estilos h3{
+   width: 100%;
+   text-align: center;
+  }
+
+}
+
+
+@media(max-width:500px) {
+  .fila {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .image__container {
+    width: 80%;
+    margin: 10px 10px;
+  }
+}
